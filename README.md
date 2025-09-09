@@ -5,3 +5,7 @@ PORT=<net port>
 ```
 
 2. run `node faucet-server.js`
+
+3. If local faucet is not enough, you may use ngrok to expose the faucet endpoint:
+    - Visit https://ngrok.com/ to sign up and install your authtoken.
+    - Run `npx ngrok http 4000`
